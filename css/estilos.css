@@ -1,0 +1,120 @@
+/*estilo general del body*/
+body  {
+  background-color:#E9E9E9;
+}
+
+/*estilos concretos*/
+h1  {
+  font-size:30px;
+  font-weight:bold;
+}
+h3  {
+  font-size:20px;
+  font-weight:lighter;
+}
+p{
+  text-indent:10px;
+}
+
+/*estilos cajas*/
+#cabecera {
+  color:#FF9900;
+  background-color:#424242;
+  font-family:sans-serif;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:2px;
+  margin-left:10px;
+  margin-right:10px;
+}
+#aplicacion {
+  color:#E9E9E9;
+  background-color:#424242;
+  font-family:sans-serif;
+  padding-left:10px;
+  margin-top:2px;
+  margin-bottom:2px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#resultado {
+  color:#E9E9E9;
+  background-color:#424242;
+  font-family:sans-serif;
+  margin-top:2px;
+  margin-bottom:2px;
+  margin-left:10px;
+  margin-right:10px;
+  display:none;
+}
+
+#resultado_transformacion  {
+  color:#E9E9E9;
+  background-color:#424242;
+  font-family:sans-serif;
+  padding-left:10px;
+  margin-top:2px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;}
+
+#historial {
+  color:#E9E9E9;
+  background-color:#424242;
+  font-family:sans-serif;
+  margin-top:2px;
+  margin-bottom:2px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#historico  {
+  color:#BCBCBC;
+  background-color:#424242;
+  font-family:sans-serif;
+  margin-top:2px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+/*estilos clases*/
+.anotacion{
+  color:#FF9900
+}
+
+.epsg_entrada {
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+.intro_coord  {
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+.epsg_salida  {
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+.calcula  {
+  border-color:#424242;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+.result_epsg     {
+  font-weight:bold;
+  color:#FF9900;
+}
+.result_coord    {
+  color:#FF9900;
+}
+.result_coord_historico    {
+  color:#3299BB;
+  font-weight:bold;
+}

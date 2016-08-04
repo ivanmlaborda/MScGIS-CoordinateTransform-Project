@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Convertidor de Sistemas de Referencia</title>
+  <link rel="StyleSheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+
+  <!--Cabecera-->
+  <div id=cabecera>
+    <br>
+    <h1>Transformador de coordenadas</h1>
+    <br>
+  </div>
+
+  <!--Aplicación-->
+  <div id=aplicacion>
+    <div class="epsg_entrada">
+      <br>
+      <p class="anotacion">Seleccionar EPSG de entrada</p>
+      <p><select id="sel_epsg_entrada">
+        <option value="EPSG:25831">EPSG:25831 - ETRS89 / UTM31N</option>
+        <option value="EPSG:25830">EPSG:25830 - ETRS89 / UTM30N</option>
+        <option value="EPSG:23031">EPSG:23031 - ED50 / UTM31N</option>
+        <option value="EPSG:23030">EPSG:23030 - ED50 / UTM30N</option>
+        <option value="EPSG:900913">EPSG:900913 - (Google)</option>
+        <option value="EPSG:4326">EPSG:4326 - WGS84 (GPS)</option>
+      </select></p>
+    </div>
+    <div class="intro_coord">
+      <p class="anotacion">Introducir coordenadas</p>
+      <p><input type="text" id="entradaX" value="495609.69832" size="15"> X - Lon</p>
+      <p><input type="text" id="entradaY" value="4624136.85418" size="15"> Y - Lat</p>
+    </div>
+    <div class="epsg_salida">
+      <p class="anotacion">Seleccionar EPSG de salida</p>
+      <p><select id="sel_epsg_salida">
+        <option value="EPSG:25831">EPSG:25831 - ETRS89 / UTM31N</option>
+        <option value="EPSG:25830">EPSG:25830 - ETRS89 / UTM30N</option>
+        <option value="EPSG:23031">EPSG:23031 - ED50 / UTM31N</option>
+        <option value="EPSG:23030">EPSG:23030 - ED50 / UTM30N</option>
+        <option value="EPSG:900913">EPSG:900913 - (Google)</option>
+        <option value="EPSG:4326">EPSG:4326 - WGS84 (GPS)</option>
+      </select></p>
+    </div>
+    <div class="calcula">
+      <p class="anotacion">Calcular transformación</p>
+      <p><input type="button" value="Calcula" onclick="conviertePunto();mostrarResultado(resultado)"> <input type="button" value="Limpia" onclick="limpiarResultado();limpiarHistorico();ocultarResultado(resultado)"></p>
+      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/2.2.1/proj4.js"></script>
+      <script type="text/javascript" src="js/proj4js/defs.js"></script>
+      <script type="text/javascript" src="js/funciones.js"></script>
+    </div>
+  </div>
+
+  <!--Resultado-->
+  <div id=resultado>
+    <div id=resultado_transformacion>
+    </div>
+    <!--Histórico-->
+    <div id=historial>
+      <p class="anotacion">Historial</p>
+      <div id=historico>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
