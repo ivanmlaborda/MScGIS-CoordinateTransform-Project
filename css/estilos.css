@@ -14,6 +14,7 @@ h3  {
 }
 p{
   text-indent:10px;
+  font-size:24px;
 }
 
 /*estilos cajas*/
@@ -108,7 +109,8 @@ p{
 
 /*estilos clases*/
 .anotacion{
-  color:#FF9900
+  color:#FF9900;
+  font-size:24px;
 }
 
 
