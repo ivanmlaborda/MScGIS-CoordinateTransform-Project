@@ -96,37 +96,37 @@ p{
   border-color:#E9E9E9;
   border-width:thin;
   border-bottom-style:dashed;
-  font-size:15px;
+  font-size:25px;
 }
 .intro_coord  {
   border-color:#E9E9E9;
   border-width:thin;
   border-bottom-style:dashed;
-  font-size:15px;
+  font-size:25px;
 }
 .epsg_salida  {
   border-color:#E9E9E9;
   border-width:thin;
   border-bottom-style:dashed;
-  font-size:15px;
+  font-size:25px;
 }
 .calcula  {
   border-color:#424242;
   border-width:thin;
   border-bottom-style:dashed;
-  font-size:15px;
+  font-size:25px;
 }
 .result_epsg     {
   font-weight:bold;
   color:#FF9900;
-  font-size:15px;
+  font-size:25px;
 }
 .result_coord    {
   color:#FF9900;
-  font-size:15px;
+  font-size:25px;
 }
 .result_coord_historico    {
   color:#3299BB;
   font-weight:bold;
-  font-size:15px;
+  font-size:25px;
 }
