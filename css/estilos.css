@@ -39,6 +39,27 @@ p{
   margin-right:10px;
 }
 
+#epsg_entrada {
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+#intro_coord  {
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+#epsg_salida  {
+  border-color:#E9E9E9;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+#calcula  {
+  border-color:#424242;
+  border-width:thin;
+  border-bottom-style:dashed;
+}
+
 #resultado {
   color:#E9E9E9;
   background-color:#424242;
@@ -90,26 +111,7 @@ p{
   color:#FF9900
 }
 
-.epsg_entrada {
-  border-color:#E9E9E9;
-  border-width:thin;
-  border-bottom-style:dashed;
-}
-.intro_coord  {
-  border-color:#E9E9E9;
-  border-width:thin;
-  border-bottom-style:dashed;
-}
-.epsg_salida  {
-  border-color:#E9E9E9;
-  border-width:thin;
-  border-bottom-style:dashed;
-}
-.calcula  {
-  border-color:#424242;
-  border-width:thin;
-  border-bottom-style:dashed;
-}
+
 .result_epsg     {
   font-weight:bold;
   color:#FF9900;
