@@ -1,4 +1,4 @@
-# COORDINATE TRANSFORM APP:
+# Coordinates transform app:
 ### Course Project - MSc. in GIS (UniGIS Girona)
 
 Application developed in HTML, CSS, JS, with **proj4js** library.
